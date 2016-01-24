@@ -24,7 +24,7 @@ public class EndpointPaths {
                 get("/", new Route() {
             @Override
             public Object handle(Request request, Response response) {
-                return "Hello World!! Indeed hello!";
+                return "Hello World!! Indeed hello! YOU ARE NOW SUPER WEB DEVELOPER.";
             }
         });
 
